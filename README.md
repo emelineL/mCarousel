@@ -1,6 +1,6 @@
-=================
-    mCarousel
-=================
+
+#  mCarousel #
+
 
 A new, responsive jQuery plugin.
 
@@ -15,7 +15,7 @@ A new, responsive jQuery plugin.
 
 
 Coming/ Cool stuff:
-  - Display par order croissant/décroissant
+  - Display by increasing/decreasing order
 
 
 ## How to use ##
@@ -23,6 +23,7 @@ Coming/ Cool stuff:
 ### Minimal Settings ###
 
 HTML part
+    
     <div class="mCarousel">
         <button class="prev btn">&lt;</button>
 
