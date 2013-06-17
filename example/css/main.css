@@ -1,0 +1,17 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.page-title {
+  margin-bottom: 50px;
+}
+
+#demo-content {
+  margin-top: 80px;
+}
+/* wrapper that contains controls + carousel */
+.mCarousel {
+  width: 50%;
+  height: 65px;
+}

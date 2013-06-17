@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.css">
+
+        <link rel="stylesheet" href="css/mCarousel.css">
+        
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">mCarousel</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="demo-content">
+            
+            <h1 class="page-title">A carousel jQuery plugin</h1>
+
+            <div class="demo1">
+                
+                <div class="mCarousel">
+                    <button class="prev btn">&lt;</button>
+                    <div class="mCarousel-wrapper">
+                        <ul>
+                            <li><img src="img/car1.png"/></li>
+                            <li><img src="img/car2.png"/></li>
+                            <li><img src="img/car3.png"/></li>
+                            <li><img src="img/car4.png"/></li>
+                            <li><img src="img/car5.png"/></li>
+                            <li><img src="img/car6.png"/></li>
+                        </ul>
+                    </div>
+                    <button class="next btn">&gt;</button>
+                </div>
+
+            </div> <!-- /demo1 -->
+
+            <hr>
+
+            <footer>
+            </footer>
+
+        </div> <!-- /container -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/mCarousel.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <script type="text/javascript">
+        $(document).ready(function() {
+            var myCarousel = $('.mCarousel').mCarousel({
+                carouselWrapper: '.mCarousel-wrapper',
+                itemWidth: 60,
+                prevControl: '.prev',
+                nextControl: '.next',
+                enableHiddenControls: true
+            });
+        });
+        </script>
+
+    </body>
+</html>
