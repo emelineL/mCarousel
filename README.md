@@ -1,4 +1,6 @@
-# mCarousel #
+=================
+    mCarousel
+=================
 
 A new, responsive jQuery plugin.
 
